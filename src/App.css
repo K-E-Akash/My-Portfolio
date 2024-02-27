@@ -1,0 +1,13 @@
+.loaderActive {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    transition: all 1s cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.loaderHide {
+    top: -100%;
+}

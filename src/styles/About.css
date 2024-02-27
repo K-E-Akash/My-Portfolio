@@ -1,0 +1,9 @@
+.aboutPage {
+    background: radial-gradient(circle, rgb(80, 80, 80) 0%, rgb(10, 10, 10) 99.4%);
+}
+
+.Desc * {
+    font-size: 1.5vw;
+    font-family: Cutive Mono;
+    color: rgb(209, 207, 207);
+}

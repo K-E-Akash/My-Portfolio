@@ -1,0 +1,54 @@
+.rightCard {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.leftCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cardHover {
+    width: 35vw;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.rightCard .cardHover {
+    background-image: linear-gradient(to left, rgb(0, 255, 255) 1%, rgba(255, 255, 255, 0));
+    transform: translateX(100%);
+}
+
+.leftCard .cardHover {
+    background-image: linear-gradient(to right, rgb(0, 255, 255) 1%, rgba(255, 255, 255, 0));
+    transform: translateX(-100%);
+}
+
+.rightCard:hover .cardHover {
+    transform: translateX(5%);
+    opacity: 1;
+}
+
+.leftCard:hover .cardHover {
+    transform: translateX(-5%);
+    opacity: 1;
+}
+
+.card:hover img {
+    filter: grayscale(0);
+}
+
+.leftCard .cardHoverH1 {
+    left: 45px;
+}
+
+.rightCard .cardHoverH1 {
+    right: 45px;
+}
+
+.card img {
+    filter: grayscale(1);
+    transition: filter 0.3s cubic-bezier(0.5, 1, 0.89, 1);
+}

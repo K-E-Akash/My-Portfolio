@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <div className={`NavbarDoc w-2/5 fixed ${MenuOpen ? 'right-[0]' : '-right-[40%]'} top-0 h-screen bg-[#4d535e] flex items-center justify-center z-[9]`}>
           <div className='mr-[10vw]'>
-            {['home', 'projects', 'about', 'skills', 'contact'].map((e, i) => {
+            {['home', 'projects', 'about', 'contact'].map((e, i) => {
               return <h1 key={i} className="navItem font-['Righteous'] uppercase text-6xl w-min">{e}</h1>
             })}
           </div>

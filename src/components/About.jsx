@@ -31,7 +31,7 @@ const About = () => {
     <>
       <div className='aboutPage px-[4vw] pb-[4vw]'>
         <Heading name={'ABOUT ME'} />
-        <div className='w-full h-screen bg-black rounded'>
+        <div className='w-full min-h-screen bg-black rounded'>
           <div className="Desc">
             <div className="line">
               <span className='lineNum text-[cyan]'>&nbsp;1&nbsp;|&nbsp;&nbsp;</span>
@@ -70,7 +70,37 @@ const About = () => {
               <span className='text-blue-500'>() </span>
               <span className='text-orange-400'>&#x7B;</span>
               <p className='text-blue-500'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return <span className='text-[cyan]'>[</span></p>
-              <p className='text-[cyan] pl-[12vw]'>'HTML/CSS/JS', 'React', 'Node.js', 'MongoDB', 'Express.js', 'MERN Stack Development', 'Next.js', 'Python', 'Django', 'Oracle SQL', 'Solid Works', 'Solid Edge', 'Catia', 'ANSYS', 'AutoCAD', 'CNC programming'<br/></p>
+              <p className='text-[cyan] pl-[12vw]'>{myData.Skills.map(e => "'"+e+"'" + ', ')}<br/></p>
+              <span className='pl-[9.6vw] text-[cyan]'>]</span>
+              <p className='text-orange-400'>&emsp;&emsp;&emsp;&emsp;&nbsp;&#x7D;</p>
+            </div>
+            <div className="line">
+              <span className='lineNum text-[cyan]'>&nbsp;6&nbsp;|&nbsp;&nbsp;&emsp;</span>
+              <span className='text-[#f3ff4a]'>Certification</span>
+              <span className='text-blue-500'>() </span>
+              <span className='text-orange-400'>&#x7B;</span>
+              <p className='text-blue-500'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return <span className='text-[cyan]'>[</span></p>
+              <p className='text-[cyan] pl-[12vw]'>{myData.Certification}<br/></p>
+              <span className='pl-[9.6vw] text-[cyan]'>]</span>
+              <p className='text-orange-400'>&emsp;&emsp;&emsp;&emsp;&nbsp;&#x7D;</p>
+            </div>
+            <div className="line">
+              <span className='lineNum text-[cyan]'>&nbsp;7&nbsp;|&nbsp;&nbsp;&emsp;</span>
+              <span className='text-[#f3ff4a]'>Publication</span>
+              <span className='text-blue-500'>() </span>
+              <span className='text-orange-400'>&#x7B;</span>
+              <p className='text-blue-500'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return <span className='text-[cyan]'>[</span></p>
+              <p className='text-[cyan] pl-[12vw]'>{myData.Publication}<br/></p>
+              <span className='pl-[9.6vw] text-[cyan]'>]</span>
+              <p className='text-orange-400'>&emsp;&emsp;&emsp;&emsp;&nbsp;&#x7D;</p>
+            </div>
+            <div className="line">
+              <span className='lineNum text-[cyan]'>&nbsp;8&nbsp;|&nbsp;&nbsp;&emsp;</span>
+              <span className='text-[#f3ff4a]'>Languages</span>
+              <span className='text-blue-500'>() </span>
+              <span className='text-orange-400'>&#x7B;</span>
+              <p className='text-blue-500'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return <span className='text-[cyan]'>[</span></p>
+              <p className='text-[cyan] pl-[12vw]'>{myData.Languages.map(e => "'"+e+"'" + ', ')}<br/></p>
               <span className='pl-[9.6vw] text-[cyan]'>]</span>
               <p className='text-orange-400'>&emsp;&emsp;&emsp;&emsp;&nbsp;&#x7D;</p>
             </div>

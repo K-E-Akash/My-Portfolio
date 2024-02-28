@@ -7,3 +7,11 @@
     font-family: Cutive Mono;
     color: rgb(209, 207, 207);
 }
+
+.line {
+    transition: background-color 0.1s ease-in-out;
+}
+
+.line:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}

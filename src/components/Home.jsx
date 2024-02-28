@@ -20,7 +20,7 @@ const Home = () => {
                         <h1 className="homeIntroH1 text-5xl text-[#eeeeee]"><span className='text-[cyan] italic font-extrabold'>I'm Akash</span> a trailblazing web artisan <br /> crafting immersive online experiences that <br /> leave a lasting impression.</h1>
                     </div >
 
-                    <img src="./images/responsive-design.gif" alt="" className='w-[300px] homeGif' />
+                    <img src="images/responsive-design.gif" alt="" className='w-[300px] homeGif' />
                 </div>
 
             </div >

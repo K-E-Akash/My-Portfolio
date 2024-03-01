@@ -1,11 +1,11 @@
 @font-face {
     font-family: Kalam;
-    src: url('/fonts/Kalam-Light.ttf');
+    src: url('fonts/Kalam-Light.woff2');
 }
 
 @font-face {
     font-family: Dosis;
-    src: url('/fonts/Dosis-Regular.ttf');
+    src: url('fonts/Dosis-Regular.woff2');
 }
 
 .homeIntroH1 {

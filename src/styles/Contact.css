@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Dosis;
+    src: url('fonts/Dosis-Regular.woff2');
+}
+
+.contactPage {
+    background: linear-gradient(109.6deg, rgba(20, 20, 20, 0.93) 11.2%, rgb(50, 50, 50) 78.9%);
+}
+
+.Cbottom * {
+    font-family: Dosis;
+}
+
+.Clinks {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.Clinks::before {
+    content: attr(data-content);
+    position: absolute;
+    color: white;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.Clinks:hover::before {
+    width: 100%;
+}

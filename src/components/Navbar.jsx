@@ -16,7 +16,7 @@ const Navbar = () => {
         <motion.div
           className='text-[#00FFFF] font-bold text-4xl fixed right-10 top-10 z-10'
           onClick={() => setMenuOpen(!MenuOpen)}
-          whileTap={{ scale: 0.9 }}
+          whileTap={{ scale: 0.85 }}
           transition={{ type: 'spring', damping: 7, stiffness: 200 }}>
           {MenuOpen ? <RxCross2 /> : <RiMenu3Line />}
         </motion.div>

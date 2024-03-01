@@ -28,7 +28,6 @@ const App = () => {
         <Projects/>
         <About/>
         <Contact/>
-        <FutureWork/>
 
       </div>
     </>

@@ -1,0 +1,74 @@
+[
+    {
+        "category": "Major",
+        "id": 1,
+        "project_name": "Sundown Studio Clone",
+        "technologies_used": "HTML, CSS, JavaScript",
+        "description": "I undertook the project to recreate the home page of the Sundown-Studio website as a means to enhance my front-end development skills. The focus was on accurately replicating the layout, design elements, and functionality of the original website's home page. This involved a comprehensive understanding and utilization of HTML, CSS, and JavaScript to achieve the desired visual and interactive effects.",
+        "key_contributions": {
+            "HTML": "I meticulously structured the HTML markup to mirror the layout of the original website, ensuring semantic correctness and accessibility.",
+            "CSS": "Leveraging CSS, I styled the elements to match the visual aesthetics of the Sundown-Studio website, including fonts, colors, spacing, and responsive design for various screen sizes.",
+            "JavaScript": "Implemented JavaScript functionalities to add interactivity and dynamic behavior to the home page, such as interactive sliders, navigation menus, and modal pop-ups."
+        },
+        "outcome": "Through this project, I honed my proficiency in front-end development technologies and gained valuable experience in replicating complex website layouts. This endeavor not only showcased my technical abilities but also demonstrated my attention to detail and commitment to delivering high-quality front-end solutions.",
+        "image_data": "images/sundownStudio.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/SunDown-Studio-Clone",
+        "view_site": true,
+        "live_site": "https://k-e-akash.github.io/SunDown-Studio-Clone/"
+    },
+    {
+        "category": "Major",
+        "id": 2,
+        "project_name": "OCHI Design Clone",
+        "technologies_used": "React.js, Tailwind CSS",
+        "description": "The OCHI Design Clone project aimed to replicate the design and functionality of the OCHI Design website using React.js and Tailwind CSS. By meticulously studying the original website's layout, design elements, and interactive features, I honed my front-end development skills while gaining practical experience in building responsive and visually appealing user interfaces.",
+        "key_contributions": {
+            "React.js": "Implemented various React components to recreate the structure and behavior of the OCHI Design website, ensuring modularity and reusability of code.",
+            "Tailwind CSS": "Leveraged Tailwind CSS utility classes to style components and achieve pixel-perfect alignment and styling, closely resembling the original design."
+        },
+        "outcome": "Through this project, I deepened my understanding of React.js and Tailwind CSS, learning best practices for component-based UI development and responsive web design. The completed clone not only showcased my technical proficiency but also demonstrated my ability to accurately replicate complex website designs.",
+        "image_data": "images/OchiDesign.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/OCHI-Design",
+        "view_site": true,
+        "live_site": "https://k-e-akash.github.io/OCHI-Design/"
+    },
+    {
+        "category": "Major",
+        "id": 3,
+        "project_name": "FeastSwift",
+        "technologies_used": "MongoDB, Express.js, React.js, Node.js, Tailwind CSS",
+        "description": "FeastSwift is a food delivery application designed to streamline the process of ordering food online. It provides users with a convenient platform to explore the menu of a restaurant, place orders, and track delivery status in real-time. The application offers a seamless and intuitive user experience, combining robust backend services with a modern and responsive frontend interface.",
+        "key_contributions": {
+            "MongoDB": "Implemented MongoDB as the database solution to store restaurant details, menu items, user profiles, and order information, ensuring data integrity and scalability.",
+            "Express.js": "Utilized Express.js to develop a RESTful API backend, defining routes for user authentication, restaurant management, order processing, and delivery tracking.",
+            "React.js": "Developed dynamic and interactive user interfaces using React.js, creating components for restaurant listings, menu display, order checkout, and order tracking.",
+            "Node.js": "Built a server-side application using Node.js to handle HTTP requests, manage user sessions, and orchestrate communication between the frontend and backend systems.",
+            "Tailwind CSS": "Utilized Tailwind CSS utility classes to style components and layout elements, ensuring consistent and visually appealing designs across different screen sizes and devices."
+        },
+        "outcome": "The FeastSwift project provided valuable experience in full-stack web development, particularly in building robust and feature-rich applications using the MERN stack. By successfully implementing key functionalities such as user authentication, order management, and real-time tracking, the project demonstrated my ability to deliver scalable and user-friendly solutions in the rapidly evolving domain of online food delivery.",
+        "image_data": "images/FeastSwift.webp",
+        "view_code": false,
+        "github": "None",
+        "view_site": false,
+        "live_site": "None"
+    },
+    {
+        "category": "Major",
+        "id": 4,
+        "project_name": "Portfolio Website",
+        "technologies_used": "React.js, Tailwind CSS",
+        "description": "The Portfolio Website project is a personalized portfolio showcasing my skills, projects, and experiences. It serves as a platform to highlight my achievements and aspirations in the field of web development. In the future, there's a goal to expand this project into a MERN stack application, allowing users to create accounts, add their own data, and customize their portfolios according to their preferences.",
+        "key_contributions": {
+            "React.js": "Implemented React.js to build the frontend of the portfolio website, creating reusable components for layout, navigation, and content presentation.",
+            "Tailwind CSS": "Utilized Tailwind CSS utility classes to style the components and achieve a modern, responsive design.",
+            "Future Plans": "Planned the future expansion of the project into a MERN stack application, envisioning features such as user authentication, database management, and dynamic content rendering."
+        },
+        "outcome": "Through this project, I aim to establish a professional online presence and demonstrate my proficiency in web development technologies. The expansion into a MERN stack project will further enhance my skills in full-stack development, database management, and user authentication. By creating a customizable portfolio platform, I aspire to provide a valuable tool for showcasing individuals' talents and achievements in the digital realm.",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/OCHI-Design",
+        "view_site": true,
+        "live_site": "https://k-e-akash.github.io/OCHI-Design/"
+    }
+]

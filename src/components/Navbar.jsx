@@ -3,11 +3,13 @@ import { RiMenu3Line } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import '../styles/Navbar.css'
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
 
   const [MenuOpen, setMenuOpen] = useState(false)
+  const [links, setLinks] = useState(["/", "/Projects", "/About", "/Contact"])
 
   return (
     <>
@@ -29,12 +31,12 @@ const Navbar = () => {
           </div>
         </div>
 
-        {MenuOpen && <div
-        className='w-full h-screen fixed left-0 top-0 backdrop-blur-lg backdrop-brightness-50 z-[8]'></div>}
+          {MenuOpen && <div
+            className='w-full h-screen fixed left-0 top-0 backdrop-blur-lg backdrop-brightness-50 z-[8]'></div>}
 
-      </div>
-    </>
-  )
+        </div>
+      </>
+      )
 }
 
-export default Navbar
+      export default Navbar

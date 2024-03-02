@@ -1,0 +1,23 @@
+.myWorksPage {
+    background: linear-gradient(109.6deg, rgba(20, 20, 20, 0.93) 11.2%, rgb(50, 50, 50) 78.9%);
+
+}
+
+@font-face {
+    font-family: Heading;
+    src: url('fonts/Dosis-Regular.woff2');
+}
+
+.myWorksPageH1 {
+    font-size: 5vw;
+    font-family: Heading;
+    color: cyan;
+    margin-top: -2vw;
+    padding-bottom: 2vw;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);;
+}
+
+.myWorksPageH1::before {
+    content: "📎        ";
+    padding-left: 4vw;
+}

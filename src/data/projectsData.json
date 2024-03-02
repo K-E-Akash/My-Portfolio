@@ -131,7 +131,7 @@
             "HTML, CSS, JavaScript": "Implemented frontend development tasks, including designing the user interface, styling the website, and adding interactive features using JavaScript."
         },
         "outcome": "The completion of OWNit represents the creation of a visually stunning and user-friendly shopping platform for luxury brands. With its captivating design and hidden surprise, the website aims to engage users and leave a memorable impression. Future enhancements may include expanding the product catalog, optimizing performance, and implementing additional features to elevate the shopping experience.",
-        "image_data": "images/Ownit.webp",
+        "image_data": "images/OwnIt.webp",
         "view_code": true,
         "github": "https://github.com/K-E-Akash/OWNit",
         "view_site": true,
@@ -170,7 +170,7 @@
         "live_site": "https://namott.netlify.app/"
     }, 
     {
-        "category": "Other",
+        "category": "Minor",
         "id": 11,
         "project_name": "TODO App",
         "technologies_used": "Next.js, Tailwind CSS",

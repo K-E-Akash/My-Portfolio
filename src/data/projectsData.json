@@ -193,12 +193,60 @@
         "description": "FWD Tadpole involves the design and development of a braking system for a front wheel drive tadpole type electric vehicle. The project focuses on creating an efficient braking mechanism to ensure safe operation of the vehicle.",
         "key_contributions": {
             "Design": "Played a major role in designing the braking system and its components using SolidWorks CAD software. Collaborated with the team to iterate on designs and ensure compatibility with the vehicle.",
-            "Team play": "Participated in a group project involving four teams, contributing to the design and assembly of the vehicle. Collaborated with other groups to coordinate the design process and ensure seamless integration of components. Additionally, contributed to fabricating the vehicle from scratch to create a working model of the tadpole."
+            "Team play": "Engaged in a collaborative endeavor within a multidisciplinary team comprising four units, actively contributing to the comprehensive design and assembly phases of the vehicle. Fostered seamless coordination with fellow teams to synchronize the design workflow and ensure the harmonious integration of various components. Furthermore, played a pivotal role in the fabrication process, meticulously constructing the vehicle from inception to fruition, culminating in the successful realization of a functional tadpole model."
         },
         "outcome": "The successful completion of the FWD Tadpole project resulted in the development of a fully functional tadpole vehicle equipped with an effective braking system. The vehicle demonstrates the team's ability to design and implement complex mechanical systems, highlighting their skills in CAD design, engineering, and project management.",
+        "image_data": "images/Tadpole.webp",
         "view_code": false,
         "github": "None",
         "view_site": false,
         "live_site": "None"
-    }    
+    },
+    {
+        "category": "Other",
+        "id": 13,
+        "project_name": "Chopper style E-Cycle",
+        "technologies_used": "Catia",
+        "description": "The Chopper style E-Cycle project aimed at developing a convertible cycle with two distinct configurations: a chopper-style outdoor variant and an indoor-style compact version. The primary objective is to create an electric cycle that is easily dismantlable and portable, catering to users, diverse transportation needs.",
+        "key_contributions": {
+            "Design": "Engaged in extensive design research and prototyping phases to iterate on various concepts and refine the final design of the convertible cycle.",
+            "Team play": "Demonstrated leadership skills within the team by overseeing material procurement, actively contributing to design discussions, and coordinating the fabrication process. Played a pivotal role in ensuring effective collaboration among team members to achieve project milestones and objectives."
+        },
+        "outcome": "The Chopper style E-Cycle project has been successfully completed. It has delivered a versatile and innovative electric cycle solution that seamlessly transitions between chopper and indoor styles. The outcome showcases the team's dedication to design excellence, functionality, and user convenience.",
+        "image_data": "images/Chopper cycle.webp",
+        "view_code": false,
+        "github": "None",
+        "view_site": false,
+        "live_site": "None"
+    },
+    {
+        "category": "DesignWork",
+        "id": 14,
+        "project_name": "FWD Tadpole",
+        "image_data": "images/Tadpole CAD.webp"
+    },
+    {
+        "category": "DesignWork",
+        "id": 15,
+        "project_name": "Tadpole Brake System",
+        "image_data": "images/Brake system.webp"
+    },
+    {
+        "category": "DesignWork",
+        "id": 16,
+        "project_name": "Master cylinder",
+        "image_data": "images/Master cylinder.webp"
+    },
+    {
+        "category": "DesignWork",
+        "id": 17,
+        "project_name": "Rear Axle",
+        "image_data": "images/Rear axle.webp"
+    },
+    {
+        "category": "DesignWork",
+        "id": 18,
+        "project_name": "Rear wheel",
+        "image_data": "images/Rear wheel.webp"
+    }
 ]

@@ -66,9 +66,139 @@
             "Future Plans": "Planned the future expansion of the project into a MERN stack application, envisioning features such as user authentication, database management, and dynamic content rendering."
         },
         "outcome": "Through this project, I aim to establish a professional online presence and demonstrate my proficiency in web development technologies. The expansion into a MERN stack project will further enhance my skills in full-stack development, database management, and user authentication. By creating a customizable portfolio platform, I aspire to provide a valuable tool for showcasing individuals' talents and achievements in the digital realm.",
+        "image_data": "images/MyPortfolio.webp",
         "view_code": true,
         "github": "https://github.com/K-E-Akash/OCHI-Design",
         "view_site": true,
         "live_site": "https://k-e-akash.github.io/OCHI-Design/"
-    }
+    },
+    {
+        "category": "Minor",
+        "id": 5,
+        "project_name": "Docs App",
+        "technologies_used": "React.js, Tailwind CSS, Framer Motion",
+        "description": "The Docs App is a web application developed using React.js, Tailwind CSS, and Framer Motion. It serves as a comprehensive platform for creating and managing various types of documents, including notes and todo lists. With a sleek and intuitive user interface, users can seamlessly create, organize, and edit their notes and tasks.",
+        "key_contributions": {
+            "Developed the User Interface for Creating Notes and Todo Lists": "Designed and implemented the user interface components for creating and editing notes and todo lists. Ensured a user-friendly experience by focusing on intuitive layout and responsive design principles",
+            "Integrated Animations Using Framer Motion": "Leveraged Framer Motion to introduce fluid animations throughout the application. Implemented smooth transitions and interactive elements to enhance the overall user experience and make interactions more engaging."
+        },
+        "outcome": "With its sleek design and efficient performance, the Docs App aims to empower users to boost productivity and effectively manage their documents in a digital environment.",
+        "image_data": "images/DocsApp.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/React-DocsApp",
+        "view_site": true,
+        "live_site": "https://k-e-akash.github.io/React-DocsApp/"
+    },
+    {
+        "category": "Major",
+        "id": 6,
+        "project_name": "Zoro ESports",
+        "technologies_used": "HTML, CSS, JavaScript",
+        "description": "Zoro ESports is a comprehensive frontend website featuring essential pages for user authentication, such as login, signup, and registration forms. The platform serves as a hub for hosting Online game tournaments and championships, where users can register, participate, and compete for prizes. With a sleek and intuitive interface, users can navigate seamlessly through the website, explore game details, register for tournaments, and stay updated with the latest events and announcements.",
+        "key_contributions": {
+            "HTML, CSS, JavaScript": "Developed the frontend components and pages, including user authentication forms, game cards, and tournament registration forms. Ensured a cohesive and visually appealing design while maintaining responsiveness and cross-browser compatibility."
+        },
+        "outcome": "The completion of Zoro ESports marks the establishment of a robust platform for hosting game tournaments and championships. With user-friendly navigation and seamless registration processes, the website aims to attract gaming enthusiasts and foster a thriving community of players. Future enhancements may include backend integration for tournament management, user profiles, and real-time game updates.",
+        "image_data": "images/ZoroESports.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/Zoro-ESports",
+        "view_site": true,
+        "live_site": "https://zoro-esports.netlify.app/"
+    },
+    {
+        "category": "Minor",
+        "id": 7,
+        "project_name": "Calculator",
+        "technologies_used": "HTML, CSS, JavaScript",
+        "description": "The Calculator project is a standard calculator application built entirely using HTML, CSS, and JavaScript. It provides basic arithmetic functionality for addition, subtraction, multiplication, and division, along with support for decimal numbers. The user interface is designed to resemble a traditional calculator, featuring buttons for inputting numbers and performing operations.",
+        "key_contributions": {
+            "HTML, CSS, JavaScript": "Developed the frontend interface and functionality of the calculator application using HTML for structure, CSS for styling, and JavaScript for implementing the logic behind arithmetic operations and user interactions."
+        },
+        "outcome": "The completion of the Calculator project offers users a simple yet functional tool for performing basic arithmetic calculations. With its intuitive user interface and responsive design, the calculator provides a seamless user experience across various devices and screen sizes. Future iterations of the project may include additional features such as memory functions, scientific notation support, and improved user customization options.",
+        "image_data": "images/Calculator.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/Calculator",
+        "view_site": true,
+        "live_site": "https://k-e-akash.github.io/Calculator/"
+    },
+    {
+        "category": "Minor",
+        "id": 8,
+        "project_name": "OWNit",
+        "technologies_used": "HTML, CSS, JavaScript",
+        "description": "OWNit is an elegant shopping site catering to luxury brands, offering a curated selection of high-end products. Beyond its sophisticated design and seamless user experience, OWNit holds a hidden surprise, adding an element of intrigue and excitement for users to discover.",
+        "key_contributions": {
+            "HTML, CSS, JavaScript": "Implemented frontend development tasks, including designing the user interface, styling the website, and adding interactive features using JavaScript."
+        },
+        "outcome": "The completion of OWNit represents the creation of a visually stunning and user-friendly shopping platform for luxury brands. With its captivating design and hidden surprise, the website aims to engage users and leave a memorable impression. Future enhancements may include expanding the product catalog, optimizing performance, and implementing additional features to elevate the shopping experience.",
+        "image_data": "images/Ownit.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/OWNit",
+        "view_site": true,
+        "live_site": "https://own-it.netlify.app/"
+    },
+    {
+        "category": "Minor",
+        "id": 9,
+        "project_name": "Portfolio",
+        "technologies_used": "HTML, CSS, JavaScript",
+        "description": "The Portfolio project is a simple yet elegant webpage designed to showcase personal information, skills, projects, and experiences. Serving as a digital resume, it provides visitors with a comprehensive overview of the creator's background and capabilities in web development.",
+        "key_contributions": {
+            "HTML, CSS, JavaScript": "Executed frontend development tasks, encompassing the creation of the user interface, styling the webpage, and incorporating interactive elements using JavaScript."
+        },
+        "outcome": "The completion of the Portfolio project establishes a polished and professional online presence, enabling the creator to showcase their expertise and accomplishments to potential employers, clients, and collaborators. With its clean design and seamless navigation, the webpage serves as a valuable tool for networking and career advancement.",
+        "image_data": "images/Portfolio.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/Portfolio",
+        "view_site": true,
+        "live_site": "https://portfolio-keakash.netlify.app/"
+    },
+    {
+        "category": "Minor",
+        "id": 10,
+        "project_name": "Nam OTT",
+        "technologies_used": "HTML, CSS, JavaScript",
+        "description": "Nam OTT is an over-the-top (OTT) platform dedicated exclusively to Kannada movies. It provides a comprehensive collection of Kannada films for viewers to stream and enjoy. With a user-friendly interface and seamless navigation, Nam OTT aims to promote Kannada cinema and cater to the preferences of Kannada movie enthusiasts.",
+        "key_contributions": {
+            "HTML, CSS, JavaScript": "Executed frontend development tasks, encompassing the creation of the user interface, styling the webpage, and incorporating interactive elements using JavaScript."
+        },
+        "outcome": "The completion of Nam OTT marks the establishment of a specialized streaming platform for Kannada movies, offering viewers a convenient and accessible way to discover and watch their favorite films. With its sleek design and intuitive features, Nam OTT strives to enhance the viewing experience for Kannada cinema enthusiasts.",
+        "image_data": "images/MyOTT.webp",
+        "view_code": true,
+        "github": "https://github.com/K-E-Akash/NamOTT",
+        "view_site": true,
+        "live_site": "https://namott.netlify.app/"
+    }, 
+    {
+        "category": "Other",
+        "id": 11,
+        "project_name": "TODO App",
+        "technologies_used": "Next.js, Tailwind CSS",
+        "description": "The TODO App is a task management application built using Next.js and styled with Tailwind CSS. It allows users to add tasks to a list and delete them after completion. The app provides a simple yet effective way to organize tasks and stay productive.",
+        "key_contributions": {
+            "Next.js, Tailwind CSS": "Implemented the frontend development tasks, including setting up the Next.js framework, designing the user interface, and styling the application using Tailwind CSS."
+        },
+        "outcome": "The development of the TODO App served as an introduction to the Next.js framework, providing valuable experience in building client-side rendered React applications. It also showcased the integration of Tailwind CSS for rapid styling and customization. The app offers a basic yet functional task management solution, laying the groundwork for future projects and learning opportunities.",
+        "image_data": "images/TodoApp.webp",
+        "view_code": false,
+        "github": "None",
+        "view_site": false,
+        "live_site": "None"
+    },
+    {
+        "category": "Other",
+        "id": 12,
+        "project_name": "FWD Tadpole",
+        "technologies_used": "SolidWorks",
+        "description": "FWD Tadpole involves the design and development of a braking system for a front wheel drive tadpole type electric vehicle. The project focuses on creating an efficient braking mechanism to ensure safe operation of the vehicle.",
+        "key_contributions": {
+            "Design": "Played a major role in designing the braking system and its components using SolidWorks CAD software. Collaborated with the team to iterate on designs and ensure compatibility with the vehicle.",
+            "Team play": "Participated in a group project involving four teams, contributing to the design and assembly of the vehicle. Collaborated with other groups to coordinate the design process and ensure seamless integration of components. Additionally, contributed to fabricating the vehicle from scratch to create a working model of the tadpole."
+        },
+        "outcome": "The successful completion of the FWD Tadpole project resulted in the development of a fully functional tadpole vehicle equipped with an effective braking system. The vehicle demonstrates the team's ability to design and implement complex mechanical systems, highlighting their skills in CAD design, engineering, and project management.",
+        "view_code": false,
+        "github": "None",
+        "view_site": false,
+        "live_site": "None"
+    }    
 ]

@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Heading from './Heading.jsx'
 import '../styles/Contact.css'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
+
+    const [userLinks, setfiruserLinks] = useState([
+        'https://www.linkedin.com/in/k-e-akash/', 'https://github.com/K-E-Akash', 'mailto:keakash1991@gmail.com', 'https://wa.me/8618976208', 'https://docs.google.com/document/d/1d0i8Gp6rOujv3tVTPMWCOX0B9NqjFBfNpSe93gOF1q0/edit?usp=drive_link'
+    ])
+
     return (
         <>
             <div className='contactPage w-full h-screen px-[4vw] flex flex-col justify-between text-zinc-200'>
@@ -10,7 +16,7 @@ const Contact = () => {
 
                 <div className='Ctop flex flex-row justify-between pb-10 '>
                     <div className="Cstart w-1/3">
-                        <img src="images/myPortfolio.svg" alt="" className=''/>
+                        <Link to='/My-Portfolio/Work-In-Progress'><img src="images/myPortfolio.svg" alt="" className=''/></Link>
                     </div>
 
                     <div className="Cmid flex flex-col justify-between w-1/3 items-center">
@@ -22,7 +28,9 @@ const Contact = () => {
                     <div className="Cend w-1/3 flex items-end flex-col">
                         {['LinkedIn', 'GitHub', 'Email', 'Whatsapp', 'Resume'].map((e, i) => {
                             return (
+                                <Link to={userLinks[i]} target='blank' download={i === 4 ? true : false}>
                                 <h1 className={`text-[1.8vw] font-['Righteous'] w-min Clinks`} data-content={e} key={i}>{e}</h1>
+                                </Link>
                             )
                         })}
                     </div>

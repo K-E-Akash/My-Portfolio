@@ -23,10 +23,10 @@ const App = () => {
       <div className="Page w-full min-h-screen bg-[#222831] overflow-hidden">
 
         {/* <div className={`loaderActive ${isVisible ? '' : 'loaderHide'}`}><Loader /></div> */}
-        <Home />
-        <Projects />
-        <About />
-        <Contact />
+        <div id='Home'><Home /></div>
+        <div id='Projects'><Projects /></div>
+        <div id='About'><About /></div>
+        <div id='Contact'><Contact /></div>
 
       </div>
     </>

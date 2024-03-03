@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import ErrorPage from './components/ErrorPage.jsx'
 import MyWorks from './components/MyWorks.jsx'
+import CardDetails from './components/CardDetails.jsx'
+import './index.css'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: '/My-Portfolio/MyWorks',
     element: <MyWorks/>
+  },
+  {
+    path: '/My-Portfolio/ProjectDetails/:ProjectID',
+    element: <CardDetails/>
   }
 ])
 

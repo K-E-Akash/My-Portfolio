@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Card2.css'
+import { Link } from 'react-router-dom'
 
 const Card2 = (props) => {
 
@@ -7,11 +8,13 @@ const Card2 = (props) => {
 
     return (
         <>
-            <div className={`card2 w-[60vw] bg-[cyan] rounded mb-24`}>
-                    <div className="" key={data.id}>
-                        <img src={data.image_data} alt="" className={`w-[60vw] card2Img rounded`}/>
+            <Link to={`/My-Portfolio/ProjectDetails/${data.id}`}>
+                <div className={`card2 w-[60vw] bg-[cyan] rounded mb-24`}>
+                    <div className="">
+                        <img src={data.image_data} alt="" className={`w-[60vw] card2Img rounded`} />
                     </div>
-            </div>
+                </div>
+            </Link>
         </>
     )
 }

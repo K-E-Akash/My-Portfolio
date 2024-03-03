@@ -1,3 +1,20 @@
 .cardDetails {
     background: radial-gradient(circle, rgb(40, 40, 40) 5%, rgb(10, 10, 10) 99.4%);
 }
+
+@font-face {
+    font-family: Dosis;
+    src: url("./fonts/Dosis-Regular.woff2");
+}
+
+.cardDetails > h1:not(:first-child) {
+    font-size: 3vw;
+    color: cyan;
+    font-family: Dosis;
+}
+
+.cardDetails p {
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.884);
+    font-family: Dosis;
+}

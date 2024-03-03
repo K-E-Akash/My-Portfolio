@@ -1,17 +1,23 @@
 import React from 'react'
 import '../styles/Card.css'
+import { Link } from 'react-router-dom'
 
 const Card = (props) => {
+
+    const { data } = props 
+
     return (
         <>
-            <div className={`${props.pos} card w-full`}>
-                <div className={`w-[43.2vw] h-[24.3vw] z-[2]`}>
-                    <img src="images/sundownStudio.webp" alt="" className='rounded-3xl' />
+            <Link to={`/My-Portfolio/ProjectDetails/${data.id}`}>
+                <div className={`${props.pos} card w-full mb-10`}>
+                    <div className={`w-[43.2vw] z-[2]`}>
+                        <img src={data.image_data} alt="" className='rounded-3xl' />
+                    </div>
+                    <div className="cardHover z-[1]">
+                        <h1 className="cardHoverH1 fixed -bottom-5 font-['kajiro'] text-[7vw]">{data.project_name}</h1>
+                    </div>
                 </div>
-                <div className="cardHover z-[1]">
-                    <h1 className="cardHoverH1 fixed top-[50%] font-['kajiro'] text-[10vw]">Sundown Studio</h1>
-                </div>
-            </div>
+            </Link>
         </>
     )
 }

@@ -51,4 +51,6 @@
 .card img {
     filter: grayscale(1);
     transition: filter 0.3s cubic-bezier(0.5, 1, 0.89, 1);
+    box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.5);
+    max-height: max-content;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Heading from '../components/Heading';
 import '../styles/MyWorks.css';
 import Card2 from './Card2';
@@ -9,18 +9,22 @@ import Back from './Back';
 
 const MyWorks = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page when component mounts or updates
+    }, []);
+
     return (
         <>
             <div className="myWorksPage w-full min-h-screen px-[4vw]">
-                <Navbar/>
-                <Back  goTo='/My-Portfolio/'/>
+                <Navbar />
+                <Back goTo='/My-Portfolio/' />
                 <Heading name='My Works' className='' />
 
                 <h1 className='myWorksPageH1'>Major Projects</h1>
                 <div className='w-full flex flex-col items-center'>
                     {projectsData.map((project, index) => {
                         if (project.category === "Major") {
-                            return <Card2 key={index} data={project} />;
+                            return <Card2 key={project.id} data={project} />;
                         }
                         return null; // or return an alternative component if needed
                     })}
@@ -30,7 +34,7 @@ const MyWorks = () => {
                 <div className='w-full flex flex-row flex-wrap justify-evenly items-center'>
                     {projectsData.map((project, index) => {
                         if (project.category === "Minor") {
-                            return <Card3 key={index} data={project} />;
+                            return <Card3 key={project.id} data={project} />;
                         }
                         return null; // or return an alternative component if needed
                     })}
@@ -40,7 +44,7 @@ const MyWorks = () => {
                 <div className='w-full flex flex-row flex-wrap justify-evenly items-center'>
                     {projectsData.map((project, index) => {
                         if (project.category === "Other" || project.category === "DesignWork") {
-                            return <Card3 key={index} data={project} />;
+                            return <Card3 key={project.id} data={project} />;
                         }
                         return null; // or return an alternative component if needed
                     })}

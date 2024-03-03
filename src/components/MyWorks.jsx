@@ -20,7 +20,7 @@ const MyWorks = () => {
                 <Back goTo='/My-Portfolio/HomePage' />
                 <Heading name='My Works' className='' />
 
-                <h1 className='myWorksPageH1'>Major Projects</h1>
+                <h1 className="myWorksPageH1 font-['Dosis']">Major Projects</h1>
                 <div className='w-full flex flex-col items-center'>
                     {projectsData.map((project, index) => {
                         if (project.category === "Major") {
@@ -30,7 +30,7 @@ const MyWorks = () => {
                     })}
                 </div>
 
-                <h1 className='myWorksPageH1'>Minor Projects</h1>
+                <h1 className="myWorksPageH1 font-['Dosis']">Minor Projects</h1>
                 <div className='w-full flex flex-row flex-wrap justify-evenly items-center'>
                     {projectsData.map((project, index) => {
                         if (project.category === "Minor") {
@@ -40,7 +40,7 @@ const MyWorks = () => {
                     })}
                 </div>
 
-                <h1 className='myWorksPageH1'>Miscellaneous Projects</h1>
+                <h1 className="myWorksPageH1 font-['Dosis']">Miscellaneous Projects</h1>
                 <div className='w-full flex flex-row flex-wrap justify-evenly items-center'>
                     {projectsData.map((project, index) => {
                         if (project.category === "Other" || project.category === "DesignWork") {

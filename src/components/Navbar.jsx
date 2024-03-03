@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className={`NavbarDoc w-2/5 fixed ${MenuOpen ? 'right-[0]' : '-right-[40%]'} top-0 h-screen bg-[#4d535e] flex items-center justify-center z-[9]`}>
           <div className='mr-[10vw]'>
             {['home', 'projects', 'about', 'contact'].map((e, i) => {
-              return <a href={links[i]} onClick={() => setMenuOpen(!MenuOpen)}><h1 key={i} className="navItem font-['Righteous'] uppercase text-6xl w-min">{e}</h1></a>
+              return <a href={links[i]} key={i} onClick={() => setMenuOpen(!MenuOpen)}><h1 className="navItem font-['Righteous'] uppercase text-6xl w-min">{e}</h1></a>
             })}
           </div>
         </div>

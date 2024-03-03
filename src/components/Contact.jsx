@@ -16,7 +16,7 @@ const Contact = () => {
 
                 <div className='Ctop flex flex-row justify-between pb-10 '>
                     <div className="Cstart w-1/3">
-                        <Link to='/My-Portfolio/Work-In-Progress'><img src="images/myPortfolio.svg" alt="" className=''/></Link>
+                        <Link to='/My-Portfolio/Work-In-Progress'><img src="images/myPortfolio.svg" alt="" className='' /></Link>
                     </div>
 
                     <div className="Cmid flex flex-col justify-between w-1/3 items-center">
@@ -28,8 +28,8 @@ const Contact = () => {
                     <div className="Cend w-1/3 flex items-end flex-col">
                         {['LinkedIn', 'GitHub', 'Email', 'Whatsapp', 'Resume'].map((e, i) => {
                             return (
-                                <Link to={userLinks[i]} target='blank' download={i === 4 ? true : false}>
-                                <h1 className={`text-[1.8vw] font-['Righteous'] w-min Clinks`} data-content={e} key={i}>{e}</h1>
+                                <Link to={userLinks[i]} target='blank' download={i === 4 ? true : false} key={i}>
+                                    <h1 className={`text-[1.8vw] font-['Righteous'] w-min Clinks`} data-content={e}>{e}</h1>
                                 </Link>
                             )
                         })}

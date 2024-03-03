@@ -3,7 +3,6 @@ import { RiMenu3Line } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import '../styles/Navbar.css'
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {

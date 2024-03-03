@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import Loader from './components/Loader'
-import Home from './components/Home'
-import Projects from './components/Projects'
-import About from './components/About'
-import Contact from './components/Contact'
-
+import FullPage from './components/FullPage';
+import LocomotiveScroll from 'locomotive-scroll';
 
 const App = () => {
-
+  
+  const locomotiveScroll = new LocomotiveScroll();
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
@@ -22,11 +20,8 @@ const App = () => {
     <>
       <div className="Page w-full min-h-screen bg-[#222831] overflow-hidden">
 
-        {/* <div className={`loaderActive ${isVisible ? '' : 'loaderHide'}`}><Loader /></div> */}
-        <div id='Home'><Home /></div>
-        <div id='Projects'><Projects /></div>
-        <div id='About'><About /></div>
-        <div id='Contact'><Contact /></div>
+        <div className={`loaderActive ${isVisible ? '' : 'loaderHide'}`}><Loader /></div>
+        <FullPage/>
 
       </div>
     </>

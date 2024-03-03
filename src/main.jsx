@@ -6,6 +6,7 @@ import ErrorPage from './components/ErrorPage.jsx'
 import FutureWork from './components/FutureWork.jsx'
 import MyWorks from './components/MyWorks.jsx'
 import CardDetails from './components/CardDetails.jsx'
+import FullPage from './components/FullPage.jsx'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -15,16 +16,20 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
+    path: "/My-Portfolio/HomePage",
+    element: <FullPage />
+  },
+  {
     path: '/My-Portfolio/MyWorks',
-    element: <MyWorks/>
+    element: <MyWorks />
   },
   {
     path: '/My-Portfolio/ProjectDetails/:ProjectID',
-    element: <CardDetails/>
+    element: <CardDetails />
   },
   {
     path: '/My-Portfolio/Work-In-Progress',
-    element: <FutureWork/>
+    element: <FutureWork />
   }
 ])
 

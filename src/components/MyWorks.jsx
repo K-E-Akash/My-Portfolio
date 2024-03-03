@@ -17,7 +17,7 @@ const MyWorks = () => {
         <>
             <div className="myWorksPage w-full min-h-screen px-[4vw]">
                 <Navbar />
-                <Back goTo='/My-Portfolio/' />
+                <Back goTo='/My-Portfolio/HomePage' />
                 <Heading name='My Works' className='' />
 
                 <h1 className='myWorksPageH1'>Major Projects</h1>

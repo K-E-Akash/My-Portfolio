@@ -19,5 +19,4 @@
 
 .myWorksPageH1::before {
     content: "📎        ";
-    padding-left: 4vw;
 }

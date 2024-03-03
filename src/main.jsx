@@ -1,16 +1,21 @@
 import React from 'react'
-import App from './App.jsx'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import App from './App.jsx'
 import ErrorPage from './components/ErrorPage.jsx'
+import MyWorks from './components/MyWorks.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/My-Portfolio/",
     element: <App />,
     errorElement: <ErrorPage />
   },
+  {
+    path: '/My-Portfolio/MyWorks',
+    element: <MyWorks/>
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

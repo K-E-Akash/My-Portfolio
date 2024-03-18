@@ -31,3 +31,40 @@ html.lenis {
 .lenis.lenis-scrolling iframe {
     pointer-events: none
 }
+
+/* Font Imports */
+@font-face {
+    font-family: Kalam;
+    src: url('fonts/Kalam-Light.woff2');
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url('fonts/Dosis-Regular.woff2');
+}
+
+@font-face {
+    font-family: Borel;
+    src: url('fonts/Borel-Regular.woff2');
+}
+
+@font-face {
+    font-family: Righteous;
+    src: url('fonts/Righteous-Regular.woff2');
+}
+
+@font-face {
+    font-family: Cutive Mono;
+    src: url('fonts/CutiveMono-Regular.woff2');
+}
+
+@font-face {
+    font-family: Kode Mono;
+    src: url('fonts/KodeMono-VariableFont_wght.woff2');
+}
+
+@font-face {
+    font-family: Kajiro;
+    src: url('fonts/Kajiro Bold.woff2');
+}
+

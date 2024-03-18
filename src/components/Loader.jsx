@@ -29,7 +29,7 @@ const Loader = () => {
             <div className="loader bg-gradient w-full h-screen relative">
 
                 <motion.h1
-                    className="absoulte font-['Borel'] text-3xl text-[#eeeeee] absolute top-[50.8%] left-1/2 -translate-x-1/2"
+                    className="absoulte text-3xl text-[#eeeeee] absolute top-[50.8%] left-1/2 -translate-x-1/2"
                     initial={{ opacity: 0 }}
                     animate={isFirstAnimationComplete && {
                         opacity: 1,

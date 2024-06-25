@@ -22,6 +22,9 @@ const About = () => {
     'Publication': [
       'National Conference on Mechanical And Automobile Engineering (NCMAE- 23) | Design and Development of Braking System for Front Wheel Drive Tadpole Type Electric Vehicle | 2023'
     ],
+    'Experience': [
+      'Web Developer Intern at WebxInfinity | March 2023 - June 2023'
+    ],
     'Languages': [
       'English', 'Kannada', 'Telugu', 'Hindi'
     ]
@@ -96,6 +99,15 @@ const About = () => {
             </div>
             <div className="line">
               <span className='lineNum text-[cyan]'>&nbsp;8&nbsp;|&nbsp;&nbsp;&emsp;</span>
+              <span className='text-[#f3ff4a]'>Experience</span>
+              <span className='text-blue-500'>() </span>
+              <span className='text-orange-400'>&#x7B;</span>
+              <p className='text-blue-500'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return <span className='text-[cyan]'>[</span></p>
+              <p className='text-[cyan] pl-[12vw]'>{myData.Experience.map(e => e)}<br/></p>
+              <span className='pl-[9.6vw] text-[cyan]'>]</span>
+              <p className='text-orange-400'>&emsp;&emsp;&emsp;&emsp;&nbsp;&#x7D;</p>
+            </div><div className="line">
+              <span className='lineNum text-[cyan]'>&nbsp;9&nbsp;|&nbsp;&nbsp;&emsp;</span>
               <span className='text-[#f3ff4a]'>Languages</span>
               <span className='text-blue-500'>() </span>
               <span className='text-orange-400'>&#x7B;</span>

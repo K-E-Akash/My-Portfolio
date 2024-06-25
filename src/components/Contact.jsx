@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Contact = () => {
 
     const [userLinks, setfiruserLinks] = useState([
-        'https://www.linkedin.com/in/k-e-akash/', 'https://github.com/K-E-Akash', 'mailto:keakash1991@gmail.com', 'https://wa.me/8618976208', 'https://docs.google.com/document/d/1d0i8Gp6rOujv3tVTPMWCOX0B9NqjFBfNpSe93gOF1q0/edit?usp=drive_link'
+        'https://www.linkedin.com/in/k-e-akash/', 'https://github.com/K-E-Akash', 'mailto:keakash.work@gmail.com', 'https://wa.me/8618976208', 'https://docs.google.com/document/d/1d0i8Gp6rOujv3tVTPMWCOX0B9NqjFBfNpSe93gOF1q0/edit?usp=drive_link'
     ])
 
     return (

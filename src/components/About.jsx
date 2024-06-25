@@ -7,7 +7,7 @@ const About = () => {
   const myData = {
     'Name': 'Akash',
     'Phone': '+91 8618976208',
-    'E-Mail': 'keakash1991@gmail.com',
+    'E-Mail': 'keakash.work@gmail.com',
     'Education': {
       '2020-2023': 'PES University, Bengaluru | B.Tech in Mechanical Engineering',
       '2017-2020': 'PES Polytechnic, Bengaluru | Diploma in Mechanical Engineering',

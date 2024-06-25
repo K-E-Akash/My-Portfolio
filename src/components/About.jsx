@@ -14,7 +14,7 @@ const About = () => {
       '2016-2017': 'Martin Luther English School, Bengaluru | SSLC',
     },
     'Skills': [
-      'HTML/CSS/JS', 'React', 'Node.js', 'MongoDB', 'Express.js', 'MERN Stack Development', 'Next.js', 'Python', 'Django', 'Oracle SQL', 'Solid Works', 'Solid Edge', 'Catia', 'ANSYS', 'AutoCAD', 'CNC programming'
+      'HTML/CSS/JS', 'React', 'GSAP', 'MUI', 'CRM', 'WordPress', 'MongoDB', 'Python', 'Django', 'SQL', 'Solid Works', 'Solid Edge', 'Catia', 'ANSYS', 'AutoCAD'
     ],
     'Certification': [
       'PySpiders Basavanagudi, Bengaluru | Python Full-Stack Web Developer Certification | Dec 2023'

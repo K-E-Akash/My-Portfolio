@@ -13,8 +13,8 @@ const Card = (props) => {
                     <div className={`w-[43.2vw] z-[2]`}>
                         <img src={data.image_data} alt="" className='rounded-3xl' />
                     </div>
-                    <div className="cardHover z-[1]">
-                        <h1 className="cardHoverH1 fixed -bottom-5 font-['kajiro'] text-[7vw]">{data.project_name}</h1>
+                    <div className="cardHover z-[1] relative">
+                        <h1 className={`absolute cardHoverH1 font-['Barlow_Condensed'] text-[7vw] uppercase tracking-tighter leading-[6.5vw] bottom-5`}>{data.project_name}</h1>
                     </div>
                 </div>
             </Link>

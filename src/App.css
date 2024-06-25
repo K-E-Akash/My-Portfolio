@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Cutive+Mono&family=Dosis:wght@200..800&family=Kalam:wght@300;400;700&family=Kode+Mono:wght@400..700&family=Righteous&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
 .loaderActive {
     width: 100vw;
     height: 100vh;
@@ -35,7 +37,7 @@ html.lenis {
 }
 
 /* Font Imports */
-@font-face {
+/* @font-face {
     font-family: Kalam;
     src: url('fonts/Kalam-Light.woff2');
 }
@@ -68,5 +70,5 @@ html.lenis {
 @font-face {
     font-family: Kajiro;
     src: url('fonts/Kajiro Bold.woff2');
-}
+} */
 

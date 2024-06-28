@@ -23,7 +23,7 @@ const About = () => {
       'National Conference on Mechanical And Automobile Engineering (NCMAE- 23) | Design and Development of Braking System for Front Wheel Drive Tadpole Type Electric Vehicle | 2023'
     ],
     'Experience': [
-      'Web Developer Intern at WebxInfinity | March 2023 - June 2023'
+      'Web Developer Intern at WebxInfinity | March 2024 - June 2024'
     ],
     'Languages': [
       'English', 'Kannada', 'Telugu', 'Hindi'

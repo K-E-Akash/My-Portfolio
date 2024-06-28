@@ -40,7 +40,7 @@ const MyWorks = () => {
                     })}
                 </div>
 
-                <h1 className="myWorksPageH1 font-['Dosis']">Miscellaneous Projects</h1>
+                <h1 className="myWorksPageH1 font-['Dosis']">Mechanical Projects</h1>
                 <div className='w-full flex flex-row flex-wrap justify-evenly items-center'>
                     {projectsData.map((project, index) => {
                         if (project.category === "Other" || project.category === "DesignWork") {
